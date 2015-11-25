@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <!--<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>-->
+    <!--FRAME START-->
+    <div class="col-md-2 black white framediv">
+        <div class="row" style="min-height:20px;"></div>
+        <div class="row" style="min-height: 200px;">
+            <img src="~/assets/7405072_orig.png" style="height: 200px; width:150px" />
+        </div>
+        <div class="row">
+            <a href="frms"><h3>Home Page</h3></a>
+            <a href="about"><h3>All about ME</h3></a>
+            <a href="projects"><h3>Sweet Projects!</h3></a>
+            <a href="contact"><h3>Webchat with me</h3></a>
+</div>
+    </div>
+    <!--FRAME END-->
+
+    <div class="body-content" style="background-color: black;">
+        @RenderBody()
+        <!--<hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>-->
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

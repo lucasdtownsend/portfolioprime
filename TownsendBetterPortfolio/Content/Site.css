@@ -1,0 +1,41 @@
+﻿body {
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:black;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.white{
+    color:white;
+}
+
+.black{
+    background-color:black;
+}
+
+div.framediv{
+    position:fixed;
+    text-align: center;
+    border-right:ridge;
+    border-right-color:whitesmoke;
+    border-right-width:thick;
+    min-height: 100%;
+    z-index: 2;
+}
+
+
+p{
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+}
